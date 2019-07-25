@@ -38,7 +38,7 @@
 
 Database name is: mya2billing
 Database user is: a2billinguser
-User password is: a2billing
+User password is: a2billing_secret
 
 
 Usage:
@@ -53,8 +53,8 @@ use mysql;
 delete from user where User='a2billinguser';
 delete from db where User='a2billinguser';
 
-GRANT ALL PRIVILEGES ON mya2billing.* TO 'a2billinguser'@'%' IDENTIFIED BY 'a2billing' WITH GRANT OPTION;
-GRANT ALL PRIVILEGES ON mya2billing.* TO 'a2billinguser'@'localhost' IDENTIFIED BY 'a2billing' WITH GRANT OPTION;
-GRANT ALL PRIVILEGES ON mya2billing.* TO 'a2billinguser'@'localhost.localdomain' IDENTIFIED BY 'a2billing' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON mya2billing.* TO 'a2billinguser'@'%' IDENTIFIED BY 'a2billing_secret' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON mya2billing.* TO 'a2billinguser'@'localhost' IDENTIFIED BY 'a2billing_secret' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON mya2billing.* TO 'a2billinguser'@'localhost.localdomain' IDENTIFIED BY 'a2billing_secret' WITH GRANT OPTION;
 
 create DATABASE if not exists `mya2billing`;
