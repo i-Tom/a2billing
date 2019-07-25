@@ -1,0 +1,143 @@
+
+
+-------------------------- GLOBAL --------------------------
+menu_it                                         | Per Italiano, premi ...
+
+
+
+
+========================================== ITALIAN ==========================================
+
+prepaid-welcome                                 | benvenuto nel sistema di codici prepagati!
+prepaid-final                                   | arrivederci!
+
+------ Authentication ------
+prepaid-enter-card-num                          | per favore, inserisci il numero di 10 cifre del codice prepagato, senza eventuali segni di punteggiatura, seguite dal tasto cancelletto
+prepaid-enter-pin-number                        | per favore, inserisci il codice PIN completo.
+prepaid-no-card-entered                         | non è stato inserito nessun codice.
+prepaid-invalid-digits                          | cifre non valide!
+prepaid-auth-fail                               | spiacente, l'autenticazione fallita.
+prepaid-zero-balance                            | spiacente, il tuo credito è zero.
+prepaid-card-expired                            | spiacente, il tuo codice è scaduto.
+prepaid-no-enough-credit                        | spiacente, non hai credito sufficiente per chiamare questo numero.
+prepaid-no-enough-credit-stop                   | spiacente, non hai credito sufficiente.
+prepaid-card-in-use                             | questo codice è stato già utilizzato!
+
+------ Call User ------
+prepaid-sipiax-press9                           | se vuoi chiamare un numero SIP o IAX con accesso gratuito, ora premi 9.
+prepaid-sipiax-enternumber                      | per favore, inserisci il numero SIP o IAX seguito dal tasto cancelletto.
+prepaid-sipiax-num-nomatch                      | spiacente, non c'è nessuna destinazione SIP o IAX che corrisponda a questo numero.
+
+------ Call Destination ------
+prepaid-enter-dest                              | per favore, inserisci il numero che vuoi chiamare, seguito dal tasto cancelletto.
+prepaid-dest-unreachable                        | il numero è indisponibile al momento.
+prepaid-isbusy                                  | il numero è attualmente occupato.
+prepaid-noanswer                                | il numero non risponde.
+prepaid-callfollowme                            | la persona che stai chiamando non ha risposto. per favore, attendi in linea; il numero chiamato ha il trasferimento di chiamata attivato e ci instraderà la chiamata alla persona chiamata.
+
+------ Time to call and Balance ------
+prepaid-you-have                                | hai
+prepaid-minute                                  | minuto
+prepaid-minutes                                 | minuti
+prepaid-second                                  | secondo
+prepaid-seconds                                 | secondi
+prepaid-dollar                                  | dollaro
+prepaid-dollars                                 | dollari
+prepaid-euro                                    | euro
+prepaid-euros                                   | euro
+prepaid-cent                                    | centesimo
+prepaid-cents                                   | centesimi
+prepaid-pound                                   | sterlina
+prepaid-pounds                                  | sterline
+prepaid-pence                                   | penny
+prepaid-swiss-franc                             | franco svizzero
+prepaid-swiss-francs                            | franchi svizzeri
+
+------ Voucher ------
+prepaid-account_refill                          | il tuo account è stato ricaricato di ...
+prepaid-refill_card_with_voucher                | se vuoi ricaricare il tuo account con un codice prepagato, digita 8 adesso.
+prepaid-voucher_does_not_exist                  | il codice non è valido.
+prepaid-voucher_enter_number                    | per favore, inserisci il numero del codice prepagato seguito dal tasto cancelletto.
+
+------ Callback ------
+prepaid-callback_intro                          | la tua chiamata è in pieno svolgimento; per favore, resta in linea.
+
+------ Function Say Rate initial ------
+prepaid-cost-call                               | il costo della chiamata è di ...
+prepaid-per-minutes                             | ... al minuto.
+
+------ CallerID update ------
+prepaid-enter-cid                               | per favore, inserisci il tuo numero di identificazione.
+
+------ Monitoring ------
+prepaid-no-dialcode                             | questo codice di selezione rapida non esiste.
+prepaid-enter-dialcode                          | per favore, inserisci il codice di selezione rapida.
+
+------ Locking & Information ------
+prepaid-press4-info                             | premi 4 per ottenere informazioni relative al tuo account.
+prepaid-press5-lock                             | premi 5 per bloccare l'account.
+
+prepaid-enter-pin-lock                          | per favore, inserisci il codice di blocco.
+prepaid-no-pin-lock                             | il codice di blocco non è corretto.
+prepaid-enter-code-lock-account                 | per favore, inserisci il codice che vuoi utilizzare per bloccare l'account.
+prepaid-your-locking-is                         | il codice di blocco è ...
+prepaid-locking-accepted                        | il codice di blocco è stato accettato.
+
+prepaid-press1-listen-lastcall                  | premi 1 per ascoltare la data e la durata dell'ultima chiamata.
+prepaid-press2-listen-accountlocked             | premi 2 per ascoltare quando l'account è stato bloccato per l'ultima volta.
+prepaid-press3-listen-firstuse                  | premi 3 per ascoltare quando l'account è stato utilizzato per la prima volta.
+prepaid-pressdisconnect                         | premi asterisco per di-sconnettere.
+
+prepaid-lastcall                                | la data dell'ultima chiamata che hai fatta è ...
+prepaid-no-call                                 | non hai fatta nessuna chiamata.
+prepaid-call-duration                           | la durata della chiamata è stata ...
+prepaid-account-has-locked                      | il tuo account è stato bloccato il ...
+prepaid-account-nolocked                        | il tuo account non è bloccato.
+prepaid-account-firstused                       | il tuo account è stato utilizzato per la prima volta il ...
+
+prepaid-press9-listen-exit-infomenu             | premi 9 per uscire dal menu informazioni.
+prepaid-press9-listen-exit-lockmenu             | premi 9 per uscire dal menu di blocco.
+
+------ Speed Dial ------
+prepaid-press9-new-speeddial                    | premi 9 per aggiungere una nuova selezione rapida. 
+prepaid-enter-speeddial                         | per favore, inserisci il numero di selezione rapida.
+prepaid-press1-change-speeddial                 | se vuoi cambiarlo premi 1, o un tasto diverso per immettere un altro numero di selezione rapida.
+prepaid-phonenumber-to-speeddial                | per favore, inserisci il numero di telefono seguito dal tasto cancelletto.
+prepaid-the-phonenumber                         | il numero di telefono ...
+prepaid-assigned-speeddial                      | ... sarà assegnato al numero di selezione rapida ...
+prepaid-press1-add-speeddial                    | se vuoi procedere, premi 1; per annullare premi un altro tasto.
+prepaid-speeddial-saved                         | il numero di selezione rapida è stato salvato con successo.
+prepaid-is-used-for                             | ... è usato per ...
+prepaid-point                                   | virgola
+
+------ CallBack CID Prompt ------
+prepaid-the-number-u-dialed-is                  | il numero che hai digitato è ...
+prepaid-re-enter-press1-confirm                 | Per re-inserire la destinazione premi 1. Per confermare premi 2.
+
+------ Non Listed Prompts For English ------
+account_refill                                  | il tuo account è stato ricaricato di ...
+agree_amount                                    | confermi questo importo?
+agree_credit_card                               | confermi questo numero di carta?
+agree_digits                                    | confermi questa cifra?
+agree_expiry_date                               | confermi questa data di scadenza della carta?
+credit                                          | credito
+enter_3_digits                                  | Per favore, inserisci le ultime 3 cifre sul retro della carta.
+enter_amount_part1                              | Per favore, inserisci un importo tra il pagamento minimo di ...
+enter_amount_part2                              | ... e il pagamento massimo di ...
+enter_credit_card                               | Per favore, inserisci il numero della tua carta di credito.
+enter_expiry_date                               | Per favore, inserisci data di scadenza della carta, nel formato a 4 cifre.
+error_process                                   | errore durante il processamento.
+invalid_amount                                  | tale importo non è valido.
+prepaid-enter-number-u-calling-1-or-011         | per favore, inserisci il numero da chiamare cominciando da 0 per le chiamati nazionali, o 00 per le chiamate internazionali, quindi premi il tasto cancelletto.
+prepaid-listen-press1-confirmation-lock         | premi 1 se vuoi sbloccare il tuo account.
+prepaid-not-authorized-phonenumber              | non sei autorizzato a chiamare questo numero.
+prepaid-of-free-package-calls                   | ... di chiamate dall pacchetto gratuito.
+prepaid-remaining                               | rimanente
+prepaid-unknow_used_currencie                   | spiacente, hai indicato una valuta sconosciuta.
+prepaid-you-have-dialed                         | hai digitato ...
+press_yes_or_no                                 | premi 1 per sì o 2 per no.
+refill_card_with_voucher                        | se vuoi ricaricare l'account con un codice prepagato, ora digita 8. se no, attendi!
+thanks_credit_card_refill                       | la transazione è stata elaborata; il tuo account verrà accreditato a breve. Grazie!
+unknow_used_currencie                           | spiacente, hai indicato una valuta sconosciuta.
+voucher_does_not_exist                          | il codice non è valido.
+voucher_enter_number                            | per favore, inserisci il codice prepagato seguito dal tasto cancelletto.
